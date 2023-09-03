@@ -22,7 +22,6 @@ new string *wow my file*  ~~delete text~~
 * second punkt
 - third
 - four
-- 
 [Yandex](https://yandex.ru "this title yandex")
 
 ```c#
@@ -55,3 +54,30 @@ Console.WriteLine("string")
 mkdir my_project
 cd my_project
 git init
+```
+
+## Памятка для меня
+
+```
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/madjoker78787/first-project.git
+git push -u origin main
+
+ssh-keygen -t ed25519 -C "tixonov_igor@inbox.ru"
+ssh-keygen -t rsa -b 4096 -C "tixonov_igor@inbox.ru"
+
+ls -a ~/.ssh list keys
+
+ssh -T git@github.com
+
+
+git remote add origin git@github.com:madjoker78787/first-project.git связать удаленный с локальным
+ 
+git remote -v проверить связь
+ 
+ 
+git push -u origin mastrer отправить на сервер
+```
