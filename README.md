@@ -54,7 +54,7 @@ Console.WriteLine("string")
 mkdir my_project
 cd my_project
 git init
-
+```
 
 ## Памятка для меня
 
