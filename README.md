@@ -80,3 +80,4 @@ git remote -v проверить связь
  
  
 git push -u origin mastrer отправить на сервер
+```
